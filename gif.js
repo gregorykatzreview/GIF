@@ -185,7 +185,6 @@ class GIF {
 	}
 
 	extractIndexStream(minimumCodeSize, dataArray, colorTableSize) {
-		//TODO return new Promise()
 		let indexStream = []
 	
 		let clearCode = Math.pow(2, minimumCodeSize)
